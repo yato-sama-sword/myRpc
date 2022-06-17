@@ -28,5 +28,3 @@ RPC协议的核心：通信协议、编码协议、序列化格式
 
 主要是rpc-client和rpc-server之间的数据交互，client调用business里提供的接口，server实现了business里的接口。client和server之间使用socket进行数据传输
 
-那么server就需要让代理告诉他，client调用的是哪个接口，哪个方法，参数都有哪些
-
